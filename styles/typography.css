@@ -1,0 +1,82 @@
+
+.montserrat-sf-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .yeseva-one-regular {
+      font-family: "Yeseva One", serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  body{
+    font-family: "Montserrat", sans-serif;
+  }
+
+  h1{
+    font-family: "Yeseva One", serif;
+    color: #476280;
+    letter-spacing: 5px;
+  }
+
+  h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1.1rem;
+}
+h6{
+    font-size: 1rem;
+}
+p{
+    font-size: .9rem;
+}
+a {
+    text-decoration: none;
+    color: #476280;
+}
+a:visited {
+    color: #85C8F2;
+}
+
+@media (min-width:600px){ 
+    
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.6rem;
+    }
+    h4{
+        font-size: 1.4rem;
+    }
+    h5{
+        font-size: 1.2rem;
+    }
+    h6{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}   
+
+h2,
+h3 {
+    font-weight: 300;
+}

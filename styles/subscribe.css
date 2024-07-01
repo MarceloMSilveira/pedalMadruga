@@ -1,0 +1,17 @@
+@import url("./typography.css");
+
+.inputs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 10px;
+}
+
+.inputs > fieldset {
+    width: 220px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

@@ -1,0 +1,67 @@
+
+/* <weight>: Use a value from 100 to 900 */
+
+.montserrat-sf-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1.1rem;
+}
+h6{
+    font-size: 1rem;
+}
+p{
+    font-size: .9rem;
+}
+
+@media (min-width:600px){ 
+    
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.6rem;
+    }
+    h4{
+        font-size: 1.4rem;
+    }
+    h5{
+        font-size: 1.2rem;
+    }
+    h6{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}

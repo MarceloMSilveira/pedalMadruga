@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS1 Subscribe form</title>
+    <link rel="stylesheet" href="./styles/subscribe.css">
+</head>
+<body>
+    <div class="bigBox">
+        <div class="container">
+            <div class="header">
+                <div><a href="./index.html">Home (real link)</a></div>
+                <div><h1>To Became a Pedaler</h1></div>
+                <div><a href="#">🔎</a></div>
+            </div>
+            <div>
+                <h2>Vem pedalar com a gente</h2><br/>
+                <form class="form">
+                    <div class="inputs">
+                        <div class="input_text">
+                            <label for="user_name">Nome:</label>
+                            <input id="user_name" name="user_name" type="text" placeholder="digite seu nome aqui" size="20">
+                            <br />
+                            <br />
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input id="sobrenome" name="sobrenome" type="text" placeholder="digite seu sobrenome aqui" size="20">
+                            <br />
+                            <br />
+                            <label for="email">Email:</label>
+                            <input id="email" name="email" type="email" placeholder="digite seu email aqui" size="30">
+                            <br />
+                            <br />
+                            <label for="celular">Celular:</label>
+                            <input id="celular" name="celular" type="tel" placeholder="digite seu celular aqui" size="20">
+                        </div>
+                        <fieldset>
+                            <legend>Informe seu gênero:</legend>
+                            <input type="radio" id="masc" name="genero" value="masc">
+                            <label for="masc">Masculino</label>
+                            <br>
+                            <input type="radio" id="fem" name="genero" value="fem">
+                            <label for="fem">Feminino</label>
+                            <br>
+                            <input type="radio" id="outro_genero" name="genero" value="outro">
+                            <label for="outro"> <input type="text" id="user_genero" placeholder="Outro" name="user_genero"></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Hobbies (usar checkbox):</legend>
+                            <input type="checkbox" id="pedal" name="hobby" value="pedal">
+                            <label for="pedal">Pedal</label>
+                            <br>
+                            <input type="checkbox" id="leitura" name="hobby" value="leitura">
+                            <label for="leitura">Leitura</label>
+                            <br>
+                            <input type="checkbox" id="piao" name="hobby" value="piao">
+                            <label for="piao">Pião</label>
+                            <br>
+                            <input type="checkbox" id="outro_hobby" name="hobby" value="outro">
+                            <label for="outro_hobby"> <input type="text" id="user_hobby" placeholder="Digite seu outro hobby aqui" name="user_hobby"></label>
+                        </fieldset>
+                    </div>
+                    <div class="text-area">
+                        <h2>De uma forma geral e descontraída, descreva o que você procura:</h2>
+                        <label for="user_words">solte a imaginação no seu teclado:</label>
+                        <br />
+                        <textarea name="user_words" id="user_words" rows="10" cols="70">Nesta atividade eu busco... </textarea>
+                    </div>
+                    
+                    <div class="values">
+                        <h2>Vamos falar de valores:</h2>
+                
+                        <label for="user_values">Escolha só uma opção:</label>
+                        <br />
+                        <select name="valores" id="user_values">
+                            <option value="">O que mais importa pra você?</option>
+                            <option value="vida">vida</option>
+                            <option value="amor">amor</option>
+                            <option value="sexo">sexo</option>
+                            <option value="dinheiro">dinheiro</option>
+                            <option value="viagens">viagens</option>
+                            <option value="saude">saude</option>
+                            <option value="comida">comida</option>
+                            <option value="arte">arte</option>
+                        </select>
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>      
+            </div>
+
+            <div class="footer">
+                <p>Blog tamplate build by MarceluS 1lveira</p>
+                <a href="#">© copyriht 2024</a>
+            </div>            
+        </div>
+    </div>
+</body>
+</html>
